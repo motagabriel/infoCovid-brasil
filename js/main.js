@@ -19,7 +19,6 @@ function api(uf,estado, casos, mortes, suspeitas) {
        return ufSelecionada;
     })
     .then(uf => {
-        console.log(uf)
         estado.textContent = `${uf.uf}, ${uf.state}`;
         casos.textContent = formataValor(uf.cases);
         mortes.textContent = formataValor(uf.deaths);
