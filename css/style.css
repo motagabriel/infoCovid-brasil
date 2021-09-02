@@ -1,0 +1,126 @@
+body {
+    background: url("../img/1624_U1RVRElPIEtBVCAzNTctMjE.jpg") center no-repeat;
+    background-size:cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 600px) {
+    
+    body {
+        background-size: auto;
+    }
+
+
+    .content ul li{
+        border-radius: 20px;
+        max-width: 500px;
+        text-align: center;
+    }
+    footer nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer nav a {
+        color: black;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+
+}
+
+.logo {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo img {
+    height: 180px;
+}
+.select-uf {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-uf select {
+    background: rgba(255, 255, 255, .5);
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align-last: center;
+    text-align: center;
+}
+
+.select-uf datalist {
+    max-width: 10px;
+    height: 80px;
+}
+
+/* .content {
+    margin: 0 auto;
+} */
+
+
+.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    margin: 10px;
+}
+
+.content ul li{
+    background: rgba(255, 255, 255, .3);
+    border-radius: 20px;
+    width: 225px;
+    margin: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.content ul li h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 0 25px 0;
+}
+
+.content ul li p {
+    font-size: 1.725rem;
+    margin-bottom: 10px;
+}
+
+
+@media (min-width: 500px) {
+    footer {
+        width: 300px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    footer nav {
+        display: flex;
+    }
+
+    footer nav a {
+        color: black;
+        text-decoration: none;
+        margin: 10px;
+    }
+    
+}
+
