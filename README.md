@@ -1,2 +1,0 @@
-# infoCovid-brasil
-.
